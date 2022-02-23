@@ -10,7 +10,7 @@ serial:
 device_options:
   legacy: false
 advanced:
-  channel: 20
+  channel: 15
   homeassistant_legacy_entity_attributes: false
   legacy_api: false
   log_level: debug
@@ -19,7 +19,9 @@ frontend:
 external_converters:
   - netdragon.js
 devices:
-  '0xa4c1387224126955':
-    friendly_name: '0xa4c1387224126955'
-  '0x000d6f00173d9abd':
-    friendly_name: '0x000d6f00173d9abd'
+  '0x00158d0003539f17':
+    friendly_name: '0x00158d0003539f17'
+  '0xa4c138d2c1bdc074':
+    friendly_name: '0xa4c138d2c1bdc074'
+  '0xa4c1381c5bd15c52':
+    friendly_name: '0xa4c1381c5bd15c52'
