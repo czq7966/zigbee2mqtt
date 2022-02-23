@@ -49,7 +49,7 @@ export default class MQTT {
             options.cert = fs.readFileSync(mqttSettings.cert);
         }
 
-        if (mqttSettings.user && mqttSettings.password) {
+        if (mqttSettings.user) {
             logger.debug(`Using MQTT login with username: ${mqttSettings.user}`);
             options.username = mqttSettings.user;
             options.password = mqttSettings.password;
