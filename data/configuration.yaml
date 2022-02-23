@@ -2,9 +2,8 @@ homeassistant: false
 permit_join: false
 mqtt:
   base_topic: CMDGATE_CL_VR_F2
-  server: mqtt://172.24.140.41:1883
-  user: cmdgate
-  password: none
+  server: mqtt://push-access.sdp.101.com:1780
+  user: ioe
 serial:
   port: /dev/ttyS1
 device_options:
@@ -18,6 +17,7 @@ frontend:
   port: 8090
 external_converters:
   - netdragon.js
+  - honyar.js
 devices:
   '0x00158d0003539f17':
     friendly_name: '0x00158d0003539f17'
